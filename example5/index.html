@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+        .wrapper > div {
+            background-color: lightblue;
+        }
+        .wrapper > div:nth-child(odd) {
+            background-color: blue; 
+        }
+        .foot {
+            display: grid;
+            background-color: lightgrey;
+            margin: 20px;
+            padding: 2em;;
+        }
+    </style>
+</head>
+<body>
+    <h3>INDEX</h3>
+    <hr>
+    <br>
+    <div class="wrapper">
+        <div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum perferendis ad reprehenderit fugiat quae voluptatibus et necessitatibus! Earum, accusamus inventore quaerat quos magni iste iusto veritatis sint, quam culpa tempora aut minus nam tempore numquam rerum sed corporis ex iure.</p>
+        </div>
+        <div>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, harum architecto. Dignissimos atque laboriosam reiciendis quisquam dolorem aliquid quod impedit molestiae sint, eveniet quaerat, consequatur ipsum. Asperiores ducimus ut corporis
+            </p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum tenetur libero voluptatibus reprehenderit ea nesciunt voluptates ab recusandae quae voluptatum.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, id! Molestiae molestias minus, facere amet consequuntur veniam maiores, assumenda a sint vero explicabo ipsa aliquid ex beatae velit possimus. Saepe unde voluptates asperiores repudiandae nulla laborum id error doloremque, eaque quasi non, eligendi odit? Architecto, laboriosam, ab nobis commodi qui iusto omnis adipisci cumque ipsa voluptate recusandae assumenda molestias voluptas.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, fuga tempore eum tenetur tempora ut. Laudantium suscipit nam deleniti nostrum!</p>
+        </div>
+    </div>
+    <footer class="foot">
+        <div class="wrapper">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+        <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
