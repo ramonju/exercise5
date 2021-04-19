@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+</head>
+<body>
+    <h2>Create User</h2>
+    <hr>
+    <form>
+        <label for="username">Username</label>
+        <input type="text" name="name" placeholder="name" maxlength="30" >
+        <br>
+        <label for="superhero">Choose your favorite superhero movie:</label>
+        <select>
+            <option value="deadpool">Deadpool</option>
+            <option value="batmas_vs_superman">Batman v Superman</option>
+            <option value="civil_war">Captain America: Civil War</option>
+            <option value="doctor_strange">Doctor Strange</option>
+            <option value="suicide_squad">Suicide Squad</option>
+            <option value="apocalypse">X-Men: Apocalypse</option>
+            <option value="gotg_vol2">Guardians of the Galaxy</option>
+            <option value="justice_league">Justice League</option>
+            <option value="logan">Logan</option>
+            <option value="homecoming">Spider-Man: Homecoming</option>
+            <option value="wonder_woman" selected>Wonder Woman</option>
+            <option value="thor_ragnarok">Thor: Ragnarok</option>
+            <option value="black_panther">Black Panther</option>
+        </select><br>
+        <label for="bio">User Bio:</label><br>
+         <textarea id="bio" name="userbio" rows="10" cols="30" placeholder="Enter your bio here..">Text</textarea><br>
+         <label for="fileimg">Choose an image file:</label><br>
+         <input type="file" id="img"><br>
+         <label for="clear">Clear Form</label><br>
+         <input type="reset">
+         <button type="button">Add new user     
+         </button>
+    </form>
+    
+</body>
+</html>
