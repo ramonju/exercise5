@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+</head>
+<body>
+    <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Create User</h2>
+    <hr>
+    <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>User Form</legend>
+        <label>Username</label>
+        <input type="text" name="username" placeholder="username" maxlength="12" size="30"><br>
+            <label>Password</label>
+            <input type="password" size="30" maxlength="8" placeholder="password"><br>
+            <label>Select your favorite superheroes</label><br>
+            Superman<input type="radio" name="radio">
+            Batman<input type="radio" name="radio">
+            Wonder Woman<input type="radio" name="radio">
+            Flash<input type="radio" name="radio">
+            Thor<input type="radio" name="radio" checked>
+            Hulk<input type="radio" name="radio" checked><br>
+            <label>Select your favorite video game</label><br>
+            Fifa<input type="checkbox" name="videogames" checked><br>
+            NHL<input type="checkbox" name="videogames"><br>
+            Resident Evil<input type="checkbox" name="videogames"><br>
+            Uncharted<input type="checkbox" name="videogames" checked><br>
+            <input type="hidden" name="userid" value="2300">
+            <button type="button">
+                <img src="./img/register_button.png" width="40" height="20">
+            </button>
+        </fieldset>
+        <input type="submit">Submit answers
+
+    </form>
+
+</body>
+</html>
